@@ -1,13 +1,13 @@
 {
   "_instrucciones": "Editá SOLO este archivo para actualizar las señales. No hace falta tocar el código. Campos por señal: categoria (Bancos | Neobancos | Ahorro en dólares | Remesas | Tarjetas), empresa, pais, dato (el número/beneficio concreto y REAL), detalle (1 línea, con fecha del dato), link (URL oficial o de afiliado), comision (true/false: muestra el tag 'con comisión'; poné true solo cuando el link sea de afiliado real), destacada (true/false: la resalta en dorado/verde), ejemplo (true si es dato de muestra; false = dato real verificado). IMPORTANTE: las tasas y promos cambian seguido, revisá la fecha del detalle y reverificá antes de publicar.",
-  "actualizado": "2026-08-03",
+  "actualizado": "2026-08-05",
   "senales": [
     {
       "categoria": "Neobancos",
       "empresa": "Revolut",
       "pais": "México",
-      "dato": "$100 MXN de cashback para nuevos clientes",
-      "detalle": "Abrí cuenta como nuevo cliente, fondeá $500 MXN y gastá $500 MXN con la tarjeta. El bono llega en 10 días hábiles (uno por persona). Vigente hasta el 31/12/2026.",
+      "dato": "$100 MXN de cashback para nuevos clientes + hasta 15% anual sobre los primeros $25.000 MXN",
+      "detalle": "Abrí cuenta como nuevo cliente, fondeá $500 MXN y gastá $500 MXN con la tarjeta para el cashback (uno por persona, llega en 10 días hábiles). El rendimiento del 15% aplica sobre los primeros $25.000 MXN. Promo vigente hasta el 31/12/2026.",
       "link": "https://www.revolut.com/es-MX/",
       "comision": false,
       "destacada": true,
@@ -75,6 +75,61 @@
       "dato": "13% anual fijo sobre los primeros $30,000 MXN, sin plazo",
       "detalle": "Banco digital de Santander. La tasa es escalonada por saldo (13% hasta $30,000, después 7% y 6,5%) y el dinero queda disponible 24/7. Sin comisiones ni monto mínimo, protegido por IPAB. Dato oficial al 27/07/2026, sujeto a cambios.",
       "link": "https://www.openbank.mx",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Neobancos",
+      "empresa": "Naranja X",
+      "pais": "Argentina",
+      "dato": "Cuenta remunerada al 17% TNA sobre saldo, hasta $1.000.000",
+      "detalle": "Tasa vigente desde el 29/07/2026 según fuente oficial. Rinde todos los días, incluso fines de semana y feriados. Tasa variable, reverificar en la app.",
+      "link": "https://www.naranjax.com",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Tarjetas",
+      "empresa": "Klar",
+      "pais": "México",
+      "dato": "Tarjeta sin anualidad con cashback de hasta 6% (nivel Platino)",
+      "detalle": "El cashback varía por membresía: 1% nivel estándar, hasta 3% Plus, hasta 6% Platino, con topes mensuales de $1.000 a $3.000 MXN. Se acredita el primer día de cada mes.",
+      "link": "https://www.klar.mx/cashback",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Neobancos",
+      "empresa": "Nequi",
+      "pais": "Colombia",
+      "dato": "10% efectivo anual (EA) en los bolsillos de ahorro, automático sobre el saldo",
+      "detalle": "Rendimiento automático sin plazo fijo. Tasa variable, reverificar en la app antes de mover dinero. Dato de agosto 2026.",
+      "link": "https://www.nequi.com.co",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Bancos",
+      "empresa": "Lulo Bank",
+      "pais": "Colombia",
+      "dato": "CDT 100% digital, hasta 12% efectivo anual a 180-540 días",
+      "detalle": "La tasa bajó del 13% al 12% desde el 15 de junio de 2026. Monto mínimo desde $100.000 COP. Reverificar vigencia antes de invertir.",
+      "link": "https://www.lulobank.com",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Bancos",
+      "empresa": "Interbank",
+      "pais": "Perú",
+      "dato": "Cuenta Simple 100% digital, sin comisión de mantenimiento ni monto mínimo",
+      "detalle": "Disponible en soles o dólares, apertura 100% digital sin sucursal. Dato de agosto 2026.",
+      "link": "https://interbank.pe/cuentas/cuentas-ahorro/cuenta-simple",
       "comision": false,
       "destacada": false,
       "ejemplo": false
