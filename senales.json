@@ -1,0 +1,83 @@
+{
+  "_instrucciones": "Editá SOLO este archivo para actualizar las señales. No hace falta tocar el código. Campos por señal: categoria (Bancos | Neobancos | Ahorro en dólares | Remesas | Tarjetas), empresa, pais, dato (el número/beneficio concreto y REAL), detalle (1 línea, con fecha del dato), link (URL oficial o de afiliado), comision (true/false: muestra el tag 'con comisión'; poné true solo cuando el link sea de afiliado real), destacada (true/false: la resalta en dorado/verde), ejemplo (true si es dato de muestra; false = dato real verificado). IMPORTANTE: las tasas y promos cambian seguido, revisá la fecha del detalle y reverificá antes de publicar.",
+  "actualizado": "2026-08-03",
+  "senales": [
+    {
+      "categoria": "Neobancos",
+      "empresa": "Revolut",
+      "pais": "México",
+      "dato": "$100 MXN de cashback para nuevos clientes",
+      "detalle": "Abrí cuenta como nuevo cliente, fondeá $500 MXN y gastá $500 MXN con la tarjeta. El bono llega en 10 días hábiles (uno por persona). Vigente hasta el 31/12/2026.",
+      "link": "https://www.revolut.com/es-MX/",
+      "comision": false,
+      "destacada": true,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Neobancos",
+      "empresa": "Nubank",
+      "pais": "México",
+      "dato": "Cuenta Nu: 6,50% anual (Cajita Turbo hasta 13%)",
+      "detalle": "El 6,50% es sin condiciones; el 13% de la Cajita Turbo requiere una compra mensual con la tarjeta. Tarjeta de crédito sin anualidad. Vigencia jul a ago 2026.",
+      "link": "https://nu.com.mx",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Neobancos",
+      "empresa": "Ualá",
+      "pais": "Argentina",
+      "dato": "Cuenta remunerada de hasta 25% TNA (base 19%)",
+      "detalle": "Rinde todos los días sobre el saldo; para el 25% hay que sumar operaciones en el mes. Tasa variable, dato de julio 2026, reverificá la vigente.",
+      "link": "https://www.uala.com.ar/inversiones/cuenta-remunerada",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Ahorro en dólares",
+      "empresa": "Belo",
+      "pais": "Argentina",
+      "dato": "Dólares con rendimiento (stablecoins) y cuenta sin costo",
+      "detalle": "El interés sobre stablecoins es variable y se ve en la app. La cuenta y la tarjeta en dólares no tienen costo, y la tarjeta da cashback en cripto de hasta 21% según nivel y promos. Dato de agosto 2026.",
+      "link": "https://belo.app",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Remesas",
+      "empresa": "Wise",
+      "pais": "LatAm",
+      "dato": "Tipo de cambio medio del mercado + comisión desde ~0,33%",
+      "detalle": "Sin recargo en el cambio; la comisión se muestra antes de enviar y baja a mayor monto (ej. USD 1.000 a México por débito, cerca de USD 7,67). Depende del par y del monto. Dato de agosto 2026.",
+      "link": "https://wise.com",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Tarjetas",
+      "empresa": "Prex",
+      "pais": "Argentina",
+      "dato": "Dólares que rinden 2% anual y tarjeta prepaga sin costo",
+      "detalle": "Los dólares generan interés diario solo por tenerlos; la TNA es variable (se consulta en la app). La cuenta en pesos también es remunerada. Dato de agosto 2026.",
+      "link": "https://www.prexcard.com.ar",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Bancos",
+      "empresa": "Openbank",
+      "pais": "México",
+      "dato": "13% anual fijo sobre los primeros $30,000 MXN, sin plazo",
+      "detalle": "Banco digital de Santander. La tasa es escalonada por saldo (13% hasta $30,000, después 7% y 6,5%) y el dinero queda disponible 24/7. Sin comisiones ni monto mínimo, protegido por IPAB. Dato oficial al 27/07/2026, sujeto a cambios.",
+      "link": "https://www.openbank.mx",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    }
+  ]
+}
