@@ -133,6 +133,28 @@
       "comision": false,
       "destacada": false,
       "ejemplo": false
+    },
+    {
+      "categoria": "Neobancos",
+      "empresa": "Mercado Pago",
+      "pais": "Argentina",
+      "dato": "Cuenta con rendimiento cercano a 17,5% TNA sobre el saldo en pesos",
+      "detalle": "Tasa promedio, varía día a día según el fondo común de inversión. Fondos disponibles al instante, sin plazo fijo. Reverificar la tasa vigente en la app. Dato de agosto 2026.",
+      "link": "https://www.mercadopago.com.ar/cuenta",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Neobancos",
+      "empresa": "DaviPlata",
+      "pais": "Colombia",
+      "dato": "Cuenta de ahorro de alto rendimiento con cerca de 8,25% efectivo anual",
+      "detalle": "Intereses pagados mes a mes. Incluye tarjeta de crédito 100% digital sin cuota de manejo, parte de su transformación a neobanco. Dato de agosto 2026.",
+      "link": "https://www.daviplata.com",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
     }
   ]
 }
