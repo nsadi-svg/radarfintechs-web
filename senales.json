@@ -1,15 +1,15 @@
 {
   "_instrucciones": "Editá SOLO este archivo para actualizar las señales. No hace falta tocar el código. Campos por señal: categoria (Bancos | Neobancos | Ahorro en dólares | Remesas | Tarjetas), empresa, pais, dato (el número/beneficio concreto y REAL), detalle (1 línea, con fecha del dato), link (URL oficial o de afiliado), comision (true/false: muestra el tag 'con comisión'; poné true solo cuando el link sea de afiliado real), destacada (true/false: la resalta en dorado/verde), ejemplo (true si es dato de muestra; false = dato real verificado). IMPORTANTE: las tasas y promos cambian seguido, revisá la fecha del detalle y reverificá antes de publicar.",
-  "actualizado": "2026-08-05",
+  "actualizado": "2026-08-13",
   "senales": [
     {
       "categoria": "Neobancos",
       "empresa": "Revolut",
       "pais": "México",
-      "dato": "$100 MXN de cashback para nuevos clientes + hasta 15% anual sobre los primeros $25.000 MXN",
-      "detalle": "Abrí cuenta como nuevo cliente, fondeá $500 MXN y gastá $500 MXN con la tarjeta para el cashback (uno por persona, llega en 10 días hábiles). El rendimiento del 15% aplica sobre los primeros $25.000 MXN. Promo vigente hasta el 31/12/2026.",
-      "link": "https://www.revolut.com/es-MX/",
-      "comision": false,
+      "dato": "$300 MXN de cashback para nuevos clientes",
+      "detalle": "Nuevos clientes: fondeá y gastá al menos $100 MXN con la tarjeta y se acredita $300 MXN de cashback en 10 días hábiles (uno por persona). Solo aplica registrándote desde este link, el alta directa en la app no cuenta. Promo vigente del 11/02 al 31/12/2026 en México.",
+      "link": "https://www.gfl85trk.com/78KZ23P/2H85N29/",
+      "comision": true,
       "destacada": true,
       "ejemplo": false
     },
