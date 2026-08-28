@@ -1,6 +1,6 @@
 {
   "_instrucciones": "Editá SOLO este archivo para actualizar las señales. No hace falta tocar el código. Campos por señal: categoria (Bancos | Neobancos | Ahorro en dólares | Remesas | Tarjetas), empresa, pais, dato (el número/beneficio concreto y REAL), detalle (1 línea, con fecha del dato), link (URL oficial o de afiliado), comision (true/false: muestra el tag 'con comisión'; poné true solo cuando el link sea de afiliado real), destacada (true/false: la resalta en dorado/verde), ejemplo (true si es dato de muestra; false = dato real verificado). IMPORTANTE: las tasas y promos cambian seguido, revisá la fecha del detalle y reverificá antes de publicar.",
-  "actualizado": "2026-08-13",
+  "actualizado": "2026-08-28",
   "senales": [
     {
       "categoria": "Neobancos",
@@ -28,10 +28,10 @@
       "categoria": "Neobancos",
       "empresa": "Ualá",
       "pais": "Argentina",
-      "dato": "Cuenta remunerada de hasta 25% TNA (base 19%)",
-      "detalle": "Rinde todos los días sobre el saldo; para el 25% hay que sumar operaciones en el mes. Tasa variable, dato de julio 2026, reverificá la vigente.",
-      "link": "https://www.uala.com.ar/inversiones/cuenta-remunerada",
-      "comision": false,
+      "dato": "19% TNA base, sube a 21% o 24% según actividad mensual en la app",
+      "detalle": "Cuenta remunerada sobre saldos de $10.000 a $1.000.000, acreditación diaria de intereses.",
+      "link": "https://www.uala.com.ar",
+      "comision": true,
       "destacada": false,
       "ejemplo": false
     },
