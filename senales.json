@@ -1,6 +1,6 @@
 {
   "_instrucciones": "Editá SOLO este archivo para actualizar las señales. No hace falta tocar el código. Campos por señal: categoria (Bancos | Neobancos | Ahorro en dólares | Remesas | Tarjetas), empresa, pais, dato (el número/beneficio concreto y REAL), detalle (1 línea, con fecha del dato), link (URL oficial o de afiliado), comision (true/false: muestra el tag 'con comisión'; poné true solo cuando el link sea de afiliado real), destacada (true/false: la resalta en dorado/verde), ejemplo (true si es dato de muestra; false = dato real verificado). IMPORTANTE: las tasas y promos cambian seguido, revisá la fecha del detalle y reverificá antes de publicar.",
-  "actualizado": "2026-08-28",
+  "actualizado": "2026-09-02",
   "senales": [
     {
       "categoria": "Neobancos",
@@ -152,6 +152,39 @@
       "dato": "Cuenta de ahorro de alto rendimiento con cerca de 8,25% efectivo anual",
       "detalle": "Intereses pagados mes a mes. Incluye tarjeta de crédito 100% digital sin cuota de manejo, parte de su transformación a neobanco. Dato de agosto 2026.",
       "link": "https://www.daviplata.com",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Tarjetas",
+      "empresa": "Stori",
+      "pais": "México",
+      "dato": "1% de cashback en todas las compras con Stori Black, sin categorías",
+      "detalle": "Sin anualidad de por vida, línea de crédito hasta $230.000 MXN, meses sin intereses en comercios participantes. El cashback se cancela si devolvés la compra o pagás tarde. Dato oficial de storicard.com, actualizado 30/01/2026.",
+      "link": "https://www.storicard.com/stori-black",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Neobancos",
+      "empresa": "Brubank",
+      "pais": "Argentina",
+      "dato": "TNA 18% sobre saldos hasta $1.000.000, sube a 22% para cartera seleccionada hasta $2.000.000",
+      "detalle": "Cuenta Max: tasa fija que se acredita días hábiles sobre el monto invertido, puede cambiar sin previo aviso. Tasas vigentes al 09/06/2026, dato oficial de Brubank, reverificá antes de publicar.",
+      "link": "https://www.brubank.com/beneficios",
+      "comision": false,
+      "destacada": false,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Bancos",
+      "empresa": "BBVA",
+      "pais": "Perú",
+      "dato": "Cuenta Digital sin comisión de mantenimiento, sin importar el saldo",
+      "detalle": "Retiros y depósitos ilimitados sin costo en cajeros y agentes BBVA. Desde el 01/03/2026, los primeros 2 retiros del mes son gratis en cualquier cajero BBVA. Transferencias por Plin sin costo. Dato oficial de bbva.pe.",
+      "link": "https://www.bbva.pe/personas/productos/cuentas/ahorro/cuenta-digital.html",
       "comision": false,
       "destacada": false,
       "ejemplo": false
