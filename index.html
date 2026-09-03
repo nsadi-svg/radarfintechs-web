@@ -563,11 +563,8 @@ footer .brand b{font-size:1rem}
 
   function cargar(data){
     senales = (data && data.senales) || [];
-    // ordenar: destacadas primero, luego por orden de categoría
-    senales.sort(function(a,b){
-      if(!!b.destacada - !!a.destacada) return !!b.destacada - !!a.destacada;
-      return ORDER.indexOf(a.categoria) - ORDER.indexOf(b.categoria);
-    });
+    // Se respeta el orden tal cual viene en senales.json (no se reordena).
+    // "destacada" solo aplica el resaltado visual (borde dorado, cinta), ya no mueve la posicion.
     buildFilters(); render();
   }
 
