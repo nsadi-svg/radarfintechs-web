@@ -1,6 +1,6 @@
 {
   "_instrucciones": "Editá SOLO este archivo para actualizar las señales. No hace falta tocar el código. Campos por señal: categoria (Bancos | Neobancos | Ahorro en dólares | Remesas | Tarjetas), empresa, pais, dato (el número/beneficio concreto y REAL), detalle (1 línea, con fecha del dato), link (URL oficial o de afiliado), comision (true/false: muestra el tag 'con comisión'; poné true solo cuando el link sea de afiliado real), destacada (true/false: la resalta en dorado/verde), ejemplo (true si es dato de muestra; false = dato real verificado). IMPORTANTE: las tasas y promos cambian seguido, revisá la fecha del detalle y reverificá antes de publicar.",
-  "actualizado": "2026-09-03",
+  "actualizado": "2026-09-08",
   "senales": [
     {
       "categoria": "Neobancos",
@@ -11,6 +11,17 @@
       "link": "https://www.gfl85trk.com/78KZ23P/2H85N29/",
       "comision": true,
       "destacada": true,
+      "ejemplo": false
+    },
+    {
+      "categoria": "Neobancos",
+      "empresa": "RappiPay",
+      "pais": "Colombia",
+      "dato": "RappiCuenta: 9% E.A. en Bolsillos y hasta 10,80% E.A. en Bóvedas, más 1% cashback en compras de Rappi",
+      "detalle": "Bóvedas a plazo: 90 días 10,00% E.A., 180 días 10,50% E.A., 360 días 10,80% E.A. Sin cuota de manejo, tarjeta débito gratis. El cashback aplica solo a compras en Rappi, con TyC. Dato oficial de rappipay.co, actualizado 17/07/2026.",
+      "link": "https://www.rappipay.co/rappicuenta/",
+      "comision": false,
+      "destacada": false,
       "ejemplo": false
     },
     {
